@@ -8,7 +8,19 @@
 	<body>
 		<div id="app">
 			<h1>My Notes</h1>
+
+			<!-- Sign In Button -->
 			<button id="sign-in-btn">Sign In</button>
+
+			<!-- Add New Note Form -->
+			<div id="add-note-form" style="display: none">
+				<h2>Add New Note</h2>
+				<input type="text" id="note-title" placeholder="Title" />
+				<textarea id="note-content" placeholder="Content"></textarea>
+				<button id="save-note-btn">Save Note</button>
+			</div>
+
+			<!-- Notes List -->
 			<div id="notes-list"></div>
 		</div>
 
