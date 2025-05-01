@@ -1,11 +1,16 @@
-📝 Supabase Notes App
-A secure, user-specific note-taking app powered by Supabase. Each user can create, read, update, and delete their own notes — and only their own — thanks to strict Row Level Security (RLS) policies.
+# 📝 Supabase Notes App
 
-🚀 Features
-🔐 Authentication using Supabase Auth
+A secure, user-specific note-taking app powered by **Supabase**.
+Each user can **create**, **read**, **update**, and **delete** their own notes —
+and **only their own** — thanks to strict **Row Level Security (RLS)** policies.
 
-🗃️ Notes database with uuid, title, content, and created_at
+---
 
-⚙️ Row Level Security (RLS) to isolate user data
+## 🚀 Features
 
-✏️ CRUD operations scoped to each user's user_id
+-   🔐 **Authentication** using Supabase Auth
+-   🗃️ **Notes database** with `uuid`, `title`, `content`, and `created_at`
+-   ⚙️ **Row Level Security (RLS)** to isolate user data
+-   ✏️ **CRUD operations** scoped to each user's `user_id`
+
+---
