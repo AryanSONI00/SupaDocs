@@ -14,14 +14,11 @@ const notesList = document.getElementById("notes-list");
 signInButton.addEventListener("click", async () => {
 	const email = prompt("Enter your email");
 	const password = prompt("Enter your password");
-
 	const user = await signIn(email, password);
 
 	if (user) {
-		// Show the add note form
 		addNoteForm.style.display = "block";
 
-		// Fetch and display the user's notes
 		const notes = await getNotes(user.id);
 		displayNotes(notes);
 	}
