@@ -14,4 +14,5 @@ and **only their own** — thanks to strict **Row Level Security (RLS)** policie
 -   ✏️ **CRUD operations** scoped to each user's `user_id`
 
 ## WORK IN PROGRESS!!
+STAY TUNED
 ---
